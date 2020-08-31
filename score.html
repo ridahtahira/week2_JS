@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table</title>
+<style>
+body{
+outline: thick ridge blue;
+outline-width:20px;
+}
+#outline{
+ outline:thin solid green;
+ outline-width:5px;
+}
+.change_color
+{
+ color:SlateBlue;
+}
+.green{
+color:green;
+}
+.Tomato{
+color:Tomato;
+}
+#MediumSeaGreen{
+color:MediumSeaGreen;
+}
+.right
+{
+  text-align:right;
+ }
+ tr:nth-child(even) {
+ background-color: #f2f2f2;
+ }
+</style>
+</head>
+<body>
+<table style="width:100%" border=1>
+
+  <tr id="outline">
+    <th class="change_color">Subject</th>
+    <th class="change_color">Marks</th>
+  </tr>
+  <tr>
+    <td >Database Management Systems</td>
+    <td class="green right" >85</td>
+  </tr>
+  <tr>
+    <td>Computer Organization</td>
+    <td class="Tomato right" >79</td>
+  </tr>
+  <tr>
+     <td>Operating Systems</td>
+    <td class="Tomato right" >78</td>
+  </tr>
+  <tr>
+    <td>FLAT</td>
+    <td class="green right">88</td>
+  </tr>
+  <tr>
+    <td>OS Lab</td>
+    <td id="MediumSeaGreen" class="right">100</td>
+  </tr>
+  <tr>
+      <td>Total</td>
+      <td>430</td>
+  </tr>
+  <tr>
+      <td>Average</td>
+      <td>86</td>
+  </tr>
+</table>
+<script src="scripts/score.js"></script>
+</body>
+</html>
