@@ -1,0 +1,5 @@
+alert("Proceed");
+function myFunction()
+{
+    document.getElementById("demo").innerHTML="JavaScript is a client scripting language which is used for creating web pages.JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.JavaScript functions can run after a webpage has loaded without communicating with the server. For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out. The JavaScript code can produce an error message before any information is actually transmitted to the server.JavaScript functions can be called within <script> tags or when specific events take place. Examples include onClick, onMouseDown, onMouseUp, onKeyDown, onKeyUp, onFocus, onBlur, onSubmit, and many others. While standard JavaScript is still used for performing basic client-side functions, many web developers now prefer to use JavaScript libraries like jQuery to add more advanced dynamic elements to websites. "
+}
