@@ -1,12 +1,18 @@
 var x=Number(prompt("enter a number in the range of 10-100"));
+try{
 switch(true)
 {
     case (x>10 && x<100):
         printFib(x);
         break;
     default:
-        alert("enter number between the specified range");
+        throw "not in range"
         break;
+}
+}
+catch(err)
+{
+    alert(err);
 }
 function printFib(n)
 {
